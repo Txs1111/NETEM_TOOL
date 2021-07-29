@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--1.扫描service的包-->
+    <context:component-scan base-package="com.NETEM.service"/>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.haitian.mapper"></property>
+    </bean>
+
+    <!--2.将我们的所有业务类，注入到Spring，可以通过配置，或者注解实现-->
+    <bean id="TermService" class="com.NETEM.service.front.Impl.TermServiceImpl">
+        <property name="termMapper" ref="termMapper"/>
+    </bean>
+    <bean id="LeadServiceImpl" class="com.NETEM.service.front.Impl.LeadServiceImpl">
+        <property name="leadMapper" ref="leadMapper"/>
+    </bean>
+    <bean id="InformationServiceImpl" class="com.NETEM.service.front.Impl.InformationServiceImpl">
+        <property name="informationMapper" ref="informationMapper"/>
+    </bean>
+    <bean id="MarkServiceImpl" class="com.NETEM.service.front.Impl.MarkServiceImpl">
+        <property name="markMapper" ref="markMapper"/>
+    </bean>
+    <bean id="CommunityServiceImpl" class="com.NETEM.service.front.Impl.CommunityServiceImpl">
+        <property name="communitymapper" ref="communitymapper"/>
+    </bean>
+    <bean id="MemberControllerServiceImpl" class="com.NETEM.service.back.Impl.MemberControllerServiceImpl">
+        <property name="memberControllerMapper" ref="memberControllerMapper"/>
+    </bean>
+    <bean id="TermControllerServiceImpl" class="com.NETEM.service.back.resource_controller.Impl.TermControllerServiceImpl">
+        <property name="termControllerMapper" ref="termControllerMapper"/>
+    </bean>
+    <bean id="RankControllerServiceImpl" class="com.NETEM.service.back.resource_controller.Impl.RankControllerServiceImpl">
+        <property name="rankControllerMapper" ref="rankControllerMapper"/>
+    </bean>
+    <bean id="ScoreControllerServiceImpl" class="com.NETEM.service.back.resource_controller.Impl.ScoreControllerServiceImpl">
+        <property name="scoreControllerMapper" ref="scoreControllerMapper"/>
+    </bean>
+    <bean id="ReportControllerServiceImpl" class="com.NETEM.service.back.resource_controller.Impl.ReportControllerServiceImpl">
+        <property name="reportControllerMapper" ref="reportControllerMapper"/>
+    </bean>
+    <bean id="RealExamControllerServiceImpl" class="com.NETEM.service.back.resource_controller.Impl.RealExamControllerServiceImpl">
+        <property name="realExamControllerMapper" ref="realExamControllerMapper"/>
+    </bean>
+    <bean id="OutlineControllerServiceImpl" class="com.NETEM.service.back.resource_controller.Impl.OutlineControllerServiceImpl">
+        <property name="outlineControllerMapper" ref="outlineControllerMapper"/>
+    </bean>
+    <bean id="TeacherControllerServiceImpl" class="com.NETEM.service.back.resource_controller.Impl.TeacherControllerServiceImpl">
+        <property name="teacherControllerMapper" ref="teacherControllerMapper"/>
+    </bean>
+    <bean id="LogControllerServiceImpl" class="com.NETEM.service.back.Impl.LogControllerServiceImpl">
+        <property name="logControllerMapper" ref="logControllerMapper"/>
+    </bean>
+    <bean id="AimControllerServiceImpl" class="com.NETEM.service.back.site_content.Impl.AimControllerServiceImpl">
+        <property name="aimControllerMapper" ref="aimControllerMapper"/>
+    </bean>
+    <bean id="ExpControllerServiceImpl" class="com.NETEM.service.back.site_content.Impl.ExpControllerServiceImpl">
+        <property name="expControllerMapper" ref="expControllerMapper"/>
+    </bean>
+    <bean id="BombControllerServiceImpl" class="com.NETEM.service.back.site_content.Impl.BombControllerServiceImpl">
+        <property name="bombControllerMapper" ref="bombControllerMapper"/>
+    </bean>
+    <bean id="CommunityControllerServiceImpl" class="com.NETEM.service.back.site_content.Impl.CommunityControllerServiceImpl">
+        <property name="communityControllerMapper" ref="communityControllerMapper"/>
+    </bean>
+    <bean id="QuAControllerServiceImpl" class="com.NETEM.service.back.site_content.Impl.QuAControllerServiceImpl">
+        <property name="quAControllerMapper" ref="quAControllerMapper"/>
+    </bean>
+    <bean id="CommunityResourceServiceImpl" class="com.NETEM.service.back.site_content.Impl.CommunityResourceServiceImpl">
+        <property name="communityResourceMapper" ref="communityResourceMapper"/>
+    </bean>
+    <!--3.声明式事务-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--4.aop事务处理-->
+
+
+
+    <bean id="SpringContextUtils" class="com.NETEM.common.SpringContextUtils">
+    </bean>
+    <context:component-scan base-package="com.NETEM.common"/>
+    <!-- 启动AspectJ支持   只对扫描过的bean有效-->
+    <aop:aspectj-autoproxy proxy-target-class="true" />
+</beans>

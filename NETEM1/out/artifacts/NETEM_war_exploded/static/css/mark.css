@@ -1,0 +1,199 @@
+.major_block{
+	width: 80%;
+	margin: 0 auto;
+}
+.major_block select{
+	width: 100%;
+	height: 40px;
+	border: 1px solid #BBBBBB;
+	background-color: white;
+	font-size: 14px;
+	outline: none;
+	font-weight: normal;
+	border-radius: 4px;
+}
+.text_line{
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 10px;
+}
+#main_block{
+	display: flex;
+	flex-wrap: wrap;
+}
+.step_1{
+	width: 100%;
+	margin: 0 auto;
+	height: 260px;
+	display: none;
+}
+.st_text_line{
+	width: 100%;
+	font-size: 14px;
+	color: #666666;
+	height: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mark_block{
+	float: left;
+	border-radius: 3px;
+	width: 47%;
+	height: 40px;
+	border: 1px solid #5CB7ED;
+	margin: 1%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.mark_block .mark_tittle{
+	flex: 4;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	height: 100%;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	background-color: #5CB7ED;
+	text-align: center;
+	line-height: 40px;
+	color: #E7F4FC;
+	font-size: 12px;
+}
+.major_block .mark_input{
+	flex: 6;
+	margin-left: 5px;
+}
+.major_block .mark_input input{
+	width: 94%;
+	height: 82%;
+	border: 0;
+	outline: none;
+}
+.school_line{
+	width: 100%;
+	height: 40px;
+	margin-top: 4px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.school_line span{
+	margin-left: 1%;
+	font-size: 14px;
+}
+.small_select_block{
+	width: 47%;
+	margin-right: 2%;
+}
+.small_select{
+	height: 30px!important;
+	flex: 1;
+}
+.botton_line{
+	width: 100%;
+	height: 46px;
+	margin-top: 4px;
+	float: left;
+}
+.forecast{
+	width: 98%;
+	margin-left: 1%;
+	height: 100%;
+	border: 1px solid #BBBBBB;
+	outline: none;
+	margin-top: 14px;
+	border-radius: 4px;
+	background-color: #126da6;
+	color: white;
+	font-size: 16px;
+}
+.result_top{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 90%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.again{
+	flex: 2;
+	color: #0088BB;
+}
+.again a{
+color: #0088BB;
+}
+.sign{
+	flex: 4;
+	text-align: right;
+	color: red;
+	font-size: 12px;
+}
+.major_show{
+	flex: 3;
+	text-align: right;
+	font-size: 14px;
+	color: #A9A9A9;
+}
+.result_tittle{
+	width: 90%;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #005599;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+.college_card{
+	width: 90%;
+	height: 110px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 4px;
+	display: flex;
+}
+.left_icon{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	width: 100px;
+	margin: 1px;
+	background-color: #F1F1F1;
+}
+.left_icon i{
+	font-size: 100px;
+}
+.right_msg{
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 8%;
+	align-content: center;
+}
+.right_msg .subject{
+	color: white;
+	width: 40%;
+	font-size: 12px;
+}
+.college_name{
+	color: white;
+	font-size: 18px;
+	width: 70%;
+}
+
+.purple_card{
+	background-color: #6666B3;
+}
+.purple_card .left_icon i{
+	color: #6666B3;
+}
+
+.lightBlue_card{
+	background-color: #99CCCC;
+}
+.lightBlue_card .left_icon i{
+	color: #99CCCC;
+}

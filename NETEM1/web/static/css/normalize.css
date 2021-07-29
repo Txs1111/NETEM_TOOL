@@ -1,0 +1,13 @@
+a{
+	text-decoration: none;
+}
+body{
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	font: normal 14px/1.5 tahoma,"lucida grande",verdana,"microsoft yahei",STXihei,hei;
+	color: #000;
+	background-color: white;
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: transparent;
+}

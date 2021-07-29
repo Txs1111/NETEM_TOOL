@@ -1,0 +1,1355 @@
+/**
+ * 全国高校校徽图标字体库
+ * by 封尘 https://lovefc.cn
+ * http://xiaohui.lovefc.cn
+ * time 2020/05/19 00:22
+ * uptime 2020/08/19 09:22 
+ */
+@font-face {
+	font-family: 'fc-icon';
+	src: url(../fonts/xiaohui.woff2?v=20200819) format("woff2"), url(../fonts/xiaohui.woff?v=20200819) format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="fc-icon"],
+[class*="fc-icon-"] {
+	font-family: 'fc-icon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/** 字体大小 **/
+
+/** 小 **/
+.fc-icon-xiao {
+	font-size: 30px !important;
+}
+
+/** 中 **/
+.fc-icon-zhong {
+	font-size: 60px !important;
+}
+
+/** 大 **/
+.fc-icon-da {
+	font-size: 90px !important;
+}
+
+/** 中大 **/
+.fc-icon-zhongda {
+	font-size: 120px !important;
+}
+
+/** 特大 **/
+.fc-icon-teda {
+	font-size: 150px !important;
+}
+
+/** 校徽 **/
+
+
+/**
+南昌大学 = ncu
+景德镇陶瓷大学 = jci
+南京大学 = nju
+清华大学 = tsinghua
+北京大学 = pku
+**/
+.fc-icon-南昌大学:before {
+	content: "\e001";
+}
+
+.fc-icon-景德镇陶瓷大学:before {
+	content: "\e002";
+}
+
+.fc-icon-南京大学:before {
+	content: "\e003";
+}
+
+.fc-icon-清华大学:before {
+	content: "\e004";
+}
+
+.fc-icon-北京大学:before {
+	content: "\e005";
+}
+
+/*
+安徽大学 = ahu
+厦门大学 = xmu
+江苏大学 = ujs
+浙江大学 = zju
+四川大学 = scu
+**/
+.fc-icon-安徽大学:before {
+	content: "\e006";
+}
+
+.fc-icon-厦门大学:before {
+	content: "\e007";
+}
+
+.fc-icon-江苏大学:before {
+	content: "\e008";
+}
+
+.fc-icon-浙江大学:before {
+	content: "\e009";
+}
+
+.fc-icon-四川大学:before {
+	content: "\e00a";
+}
+
+/**
+河南大学 = henu
+河北大学 = hbu
+东北大学 = neu
+上海大学 = shu
+重庆大学 = cqu
+*/
+.fc-icon-河南大学:before {
+	content: "\e00b";
+}
+
+.fc-icon-河北大学:before {
+	content: "\e00c";
+}
+
+.fc-icon-东北大学:before {
+	content: "\e00d";
+}
+
+.fc-icon-上海大学:before {
+	content: "\e00e";
+}
+
+.fc-icon-重庆大学:before {
+	content: "\e00f";
+}
+
+/*
+成都大学 = cdu
+湖北大学= hubu
+山东大学 = sdu
+山西大学 = sxu
+中山大学 = sysu
+*/
+.fc-icon-成都大学:before {
+	content: "\e010";
+}
+
+.fc-icon-湖北大学:before {
+	content: "\e011";
+}
+
+.fc-icon-山东大学:before {
+	content: "\e012";
+}
+
+.fc-icon-山西大学:before {
+	content: "\e013";
+}
+
+.fc-icon-中山大学:before {
+	content: "\e014";
+}
+
+/*
+天津大学 = tju
+云南大学 = ynu
+湖南大学 = hnu
+青海大学 = qhu
+贵州大学 = gzu
+*/
+.fc-icon-天津大学:before {
+	content: "\e015";
+}
+
+.fc-icon-云南大学:before {
+	content: "\e016";
+}
+
+.fc-icon-湖南大学:before {
+	content: "\e017";
+}
+
+.fc-icon-青海大学:before {
+	content: "\e018";
+}
+
+.fc-icon-贵州大学:before {
+	content: "\e019";
+}
+
+/*
+西藏大学 = utibet
+兰州大学 = lzu
+内蒙古大学 = imu
+新疆大学 = xju
+福州大学 = fzu
+*/
+.fc-icon-西藏大学:before {
+	content: "\e01a";
+}
+
+.fc-icon-兰州大学:before {
+	content: "\e01b";
+}
+
+.fc-icon-内蒙古大学:before {
+	content: "\e01c";
+}
+
+.fc-icon-新疆大学:before {
+	content: "\e01d";
+}
+
+.fc-icon-福州大学:before {
+	content: "\e01e";
+}
+
+/*
+吉林大学 = jlu
+哈尔滨工业大学 = hit
+武汉大学 = whu
+宁夏大学 = nxu
+上海交通大学 = sjtu
+**/
+.fc-icon-吉林大学:before {
+	content: "\e01f";
+}
+
+.fc-icon-哈尔滨工业大学:before {
+	content: "\e020";
+}
+
+.fc-icon-武汉大学:before {
+	content: "\e021";
+}
+
+.fc-icon-宁夏大学:before {
+	content: "\e022";
+}
+
+.fc-icon-上海交通大学:before {
+	content: "\e023";
+}
+
+/*
+复旦大学 = fudan
+中国科学技术大学 = ustc
+东南大学 = seu
+西安交通大学 = xjtu
+陕西师范大学 = snnu
+*/
+.fc-icon-复旦大学:before {
+	content: "\e024";
+}
+
+.fc-icon-中国科学技术大学:before {
+	content: "\e025";
+}
+
+.fc-icon-东南大学:before {
+	content: "\e026";
+}
+
+.fc-icon-西安交通大学:before {
+	content: "\e027";
+}
+
+.fc-icon-陕西师范大学:before {
+	content: "\e028";
+}
+
+/*
+中国矿业大学 = cumt
+中国人民大学 = ruc
+中国农业大学 = cau
+中国传媒大学 = cuc
+中国政法大学 = cupl
+*/
+.fc-icon-中国矿业大学:before {
+	content: "\e029";
+}
+
+.fc-icon-中国人民大学:before {
+	content: "\e02a";
+}
+
+.fc-icon-中国农业大学:before {
+	content: "\e02b";
+}
+
+.fc-icon-中国传媒大学:before {
+	content: "\e02c";
+}
+
+.fc-icon-中国政法大学:before {
+	content: "\e02d";
+}
+
+/*
+中央财经大学 = cufe
+中央民族大学 = muc
+同济大学= tongji
+北京师范大学 = bnu
+苏州大学 = suda
+*/
+.fc-icon-中央财经大学:before {
+	content: "\e02e";
+}
+
+.fc-icon-中央民族大学:before {
+	content: "\e02f";
+}
+
+.fc-icon-同济大学:before {
+	content: "\e030";
+}
+
+.fc-icon-北京师范大学:before {
+	content: "\e031";
+}
+
+.fc-icon-苏州大学:before {
+	content: "\e032";
+}
+
+/*
+北京航空航天大学 = buaa
+大连理工大学 = dlut
+北京理工大学 = bit
+西北工业大学 = nwpu
+华东师范大学 = ecnu
+*/
+.fc-icon-北京航空航天大学:before {
+	content: "\e033";
+}
+
+.fc-icon-大连理工大学:before {
+	content: "\e034";
+}
+
+.fc-icon-北京理工大学:before {
+	content: "\e035";
+}
+
+.fc-icon-西北工业大学:before {
+	content: "\e036";
+}
+
+.fc-icon-华东师范大学:before {
+	content: "\e037";
+}
+
+/*
+中国地质大学 = cug
+华东理工大学 = ecust
+郑州大学 = zzu
+南京航天航空大学 = nuaa
+南京农业大学 = njau
+*/
+.fc-icon-中国地质大学:before {
+	content: "\e038";
+}
+
+.fc-icon-华东理工大学:before {
+	content: "\e039";
+}
+
+.fc-icon-郑州大学:before {
+	content: "\e03a";
+}
+
+.fc-icon-南京航天航空大学:before {
+	content: "\e03b";
+}
+
+.fc-icon-南京农业大学:before {
+	content: "\e03c";
+}
+
+/*
+电子科技大学 = uestc
+西北农林科技大学 = nwsuaf
+西南大学 = swu
+武汉理工大学 = whut
+南京理工大学 = njust
+*/
+.fc-icon-电子科技大学:before {
+	content: "\e03d";
+}
+
+.fc-icon-西北农林科技大学:before {
+	content: "\e03e";
+}
+
+.fc-icon-西南大学:before {
+	content: "\e03f";
+}
+
+.fc-icon-武汉理工大学:before {
+	content: "\e040";
+}
+
+.fc-icon-南京理工大学:before {
+	content: "\e041";
+}
+
+/*
+北京科技大学 = ustb
+江南大学 = jiangnan
+北京化工大学 = buct
+华中师范大学 = ccnu
+华中农业大学 = hzau
+*/
+.fc-icon-北京科技大学:before {
+	content: "\e042";
+}
+
+.fc-icon-江南大学:before {
+	content: "\e043";
+}
+
+.fc-icon-北京化工大学:before {
+	content: "\e044";
+}
+
+.fc-icon-华中师范大学:before {
+	content: "\e045";
+}
+
+.fc-icon-华中农业大学:before {
+	content: "\e046";
+}
+
+/*
+南京师范大学 = njnu
+西安电子科技大学 = xidian
+河海大学 = hhu
+暨南大学 = jnu
+北京交通大学 = bjtu
+*/
+.fc-icon-南京师范大学:before {
+	content: "\e047";
+}
+
+.fc-icon-西安电子科技大学:before {
+	content: "\e048";
+}
+
+.fc-icon-河海大学:before {
+	content: "\e049";
+}
+
+.fc-icon-暨南大学:before {
+	content: "\e04a";
+}
+
+.fc-icon-北京交通大学:before {
+	content: "\e04b";
+}
+
+/** ------------20200510-----------**/
+/**
+华北电力大学 = ncepu
+东北师范大学 = nenu
+浙江工业大学 = zjut
+扬州大学 = yzu
+首都医科大学 = ccmu
+**/
+.fc-icon-华北电力大学:before {
+	content: "\e04c";
+}
+
+.fc-icon-东北师范大学:before {
+	content: "\e04d";
+}
+
+.fc-icon-浙江工业大学:before {
+	content: "\e04e";
+}
+
+.fc-icon-扬州大学:before {
+	content: "\e04f";
+}
+
+.fc-icon-首都医科大学:before {
+	content: "\e050";
+}
+
+/*
+华南师范大学 = scnu
+合肥工业大学 = hfut
+南京工业大学 = njtech
+西北大学 = nwu
+上海理工大学 = usst
+**/
+.fc-icon-华南师范大学:before {
+	content: "\e051";
+}
+
+.fc-icon-合肥工业大学:before {
+	content: "\e052";
+}
+
+.fc-icon-南京工业大学:before {
+	content: "\e053";
+}
+
+.fc-icon-西北大学:before {
+	content: "\e054";
+}
+
+.fc-icon-上海理工大学:before {
+	content: "\e055";
+}
+
+/**
+东华大学 = dhu
+北京邮电大学 = bupt
+中国石油大学(华东) = upc
+中国石油大学(北京) = cup
+南京信息工程大学 = nuist
+**/
+.fc-icon-东华大学:before {
+	content: "\e056";
+}
+
+.fc-icon-北京邮电大学:before {
+	content: "\e057";
+}
+
+.fc-icon-中国石油大学华东:before {
+	content: "\e058";
+}
+
+.fc-icon-中国石油大学北京:before {
+	content: "\e059";
+}
+
+.fc-icon-南京信息工程大学:before {
+	content: "\e05a";
+}
+
+/**
+华南农业大学 = scau
+宁波大学 = nbu
+中南财经政法大学 = zuel
+北京林业大学 = bjfu
+中国医科大学 = cmu
+**/
+.fc-icon-华南农业大学:before {
+	content: "\e05b";
+}
+
+.fc-icon-宁波大学:before {
+	content: "\e05c";
+}
+
+.fc-icon-中南财经政法大学:before {
+	content: "\e05d";
+}
+
+.fc-icon-北京林业大学:before {
+	content: "\e05e";
+}
+
+.fc-icon-中国医科大学:before {
+	content: "\e05f";
+}
+
+/**
+浙江师范大学 = zjnu
+南京邮电大学 = njupt
+燕山大学 = ysu
+上海财经大学 = shufe
+首都师范大学 = cnu
+**/
+.fc-icon-浙江师范大学:before {
+	content: "\e060";
+}
+
+.fc-icon-南京邮电大学:before {
+	content: "\e061";
+}
+
+.fc-icon-燕山大学:before {
+	content: "\e062";
+}
+
+.fc-icon-上海财经大学:before {
+	content: "\e063";
+}
+
+.fc-icon-首都师范大学:before {
+	content: "\e064";
+}
+
+/**
+青岛大学 = qdu
+昆明理工大学 = kmust
+湖南师范大学 = hunnu
+深圳大学 = szu
+湘潭大学 = xtu
+**/
+.fc-icon-青岛大学:before {
+	content: "\e065";
+}
+
+.fc-icon-昆明理工大学:before {
+	content: "\e066";
+}
+
+.fc-icon-湖南师范大学:before {
+	content: "\e067";
+}
+
+.fc-icon-深圳大学:before {
+	content: "\e068";
+}
+
+.fc-icon-湘潭大学:before {
+	content: "\e069";
+}
+
+/*
+西南财经大学 = swufe
+哈尔滨医科大学 = hrbmu
+中国药科大学 = cpu
+重庆医科大学 = cqmu
+太原理工大学 = tyut
+*/
+.fc-icon-西南财经大学:before {
+	content: "\e06a";
+}
+
+.fc-icon-哈尔滨医科大学:before {
+	content: "\e06b";
+}
+
+.fc-icon-中国药科大学:before {
+	content: "\e06c";
+}
+
+.fc-icon-重庆医科大学:before {
+	content: "\e06d";
+}
+
+.fc-icon-太原理工大学:before {
+	content: "\e06e";
+}
+
+/*
+济南大学 = ujn
+温州医科大学 = wmu
+对外经济贸易大学 = uibe
+四川农业大学 = sicau
+广西大学 = gxu
+*/
+.fc-icon-济南大学:before {
+	content: "\e06f";
+}
+
+.fc-icon-温州医科大学:before {
+	content: "\e070";
+}
+
+.fc-icon-对外经济贸易大学:before {
+	content: "\e071";
+}
+
+.fc-icon-四川农业大学:before {
+	content: "\e072";
+}
+
+.fc-icon-广西大学:before {
+	content: "\e073";
+}
+
+/*
+广东工业大学 = gdut
+上海师范大学 = shnu
+天津医科大学 = tijmu
+浙江理工大学 = zstu
+黑龙江大学 = hlju
+*/
+.fc-icon-广东工业大学:before {
+	content: "\e074";
+}
+
+.fc-icon-上海师范大学:before {
+	content: "\e075";
+}
+
+.fc-icon-天津医科大学:before {
+	content: "\e076";
+}
+
+.fc-icon-浙江理工大学:before {
+	content: "\e077";
+}
+
+.fc-icon-黑龙江大学:before {
+	content: "\e078";
+}
+
+/**** 14:36 ***/
+/*
+南通大学 = ntu
+长安大学 = chd
+山东师范大学 = sdnu
+江苏师范大学 = xznu
+山东农业大学 = sdau
+*/
+.fc-icon-南通大学:before {
+	content: "\e079";
+}
+
+.fc-icon-长安大学:before {
+	content: "\e07a";
+}
+
+.fc-icon-山东师范大学:before {
+	content: "\e07b";
+}
+
+.fc-icon-江苏师范大学:before {
+	content: "\e07c";
+}
+
+.fc-icon-山东农业大学:before {
+	content: "\e07d";
+}
+
+/*
+西北师范大学 = nwnu
+东北财经大学 = dufe
+河南师范大学 = htu
+华侨大学 = hqu
+南京林业大学 = njfu
+*/
+.fc-icon-西北师范大学:before {
+	content: "\e07e";
+}
+
+.fc-icon-东北财经大学:before {
+	content: "\e07f";
+}
+
+.fc-icon-河南师范大学:before {
+	content: "\e080";
+}
+
+.fc-icon-华侨大学:before {
+	content: "\e081";
+}
+
+.fc-icon-南京林业大学:before {
+	content: "\e082";
+}
+
+/*
+杭州师范大学 = hznu
+安徽师范大学 = ahnu
+杭州电子科技大学 = hdu
+福建农业大学 = fafu
+江西师范大学 = jxnu
+*/
+.fc-icon-杭州师范大学:before {
+	content: "\e083";
+}
+
+.fc-icon-安徽师范大学:before {
+	content: "\e084";
+}
+
+.fc-icon-杭州电子科技大学:before {
+	content: "\e085";
+}
+
+.fc-icon-福建农业大学:before {
+	content: "\e086";
+}
+
+.fc-icon-江西师范大学:before {
+	content: "\e087";
+}
+
+/*** 16:52 ***/
+
+/*
+江西财经大学 = jxufe
+南京中医药大学 = njucm
+广东外语外贸大学 = gdufs
+河南理工大学 = hpu
+山东科技大学 = sdust
+*/
+.fc-icon-江西财经大学:before {
+	content: "\e088";
+}
+
+.fc-icon-南京中医药大学:before {
+	content: "\e089";
+}
+
+.fc-icon-广东外语外贸大学:before {
+	content: "\e08a";
+}
+
+.fc-icon-河南理工大学:before {
+	content: "\e08b";
+}
+
+.fc-icon-山东科技大学:before {
+	content: "\e08c";
+}
+
+/*
+武汉科技大学 = wust
+河南科技大学 = haust
+西南政法大学 = swupl
+辽宁大学 = lnu
+北京中医药大学 = bucm
+*/
+.fc-icon-武汉科技大学:before {
+	content: "\e08d";
+}
+
+.fc-icon-河南科技大学:before {
+	content: "\e08e";
+}
+
+.fc-icon-西南政法大学:before {
+	content: "\e08f";
+}
+
+.fc-icon-辽宁大学:before {
+	content: "\e090";
+}
+
+.fc-icon-北京中医药大学:before {
+	content: "\e091";
+}
+
+/*
+浙江工商大学 = hzic
+西安建筑科技大学 = xauat
+中北大学 = nuc
+常州大学 = cczu
+西安理工大学 = xaut
+*/
+.fc-icon-浙江工商大学:before {
+	content: "\e092";
+}
+
+.fc-icon-西安建筑科技大学:before {
+	content: "\e093";
+}
+
+.fc-icon-中北大学:before {
+	content: "\e094";
+}
+
+.fc-icon-常州大学:before {
+	content: "\e095";
+}
+
+.fc-icon-西安理工大学:before {
+	content: "\e096";
+}
+
+/*
+哈尔滨师范大学 = hrbnu
+华东政法大学 = ecupl
+天津师范大学 = tjnu
+大连海事大学 = dlmu
+石河子大学 = shzu
+*/
+.fc-icon-哈尔滨师范大学:before {
+	content: "\e097";
+}
+
+.fc-icon-华东政法大学:before {
+	content: "\e098";
+}
+
+.fc-icon-天津师范大学:before {
+	content: "\e099";
+}
+
+.fc-icon-大连海事大学:before {
+	content: "\e09a";
+}
+
+.fc-icon-石河子大学:before {
+	content: "\e09b";
+}
+
+/*
+上海中医药大学 = shutcm
+北京外国语大学 = bfsu
+四川师范大学 = sicnu
+河北工业大学 = hebut
+天津工业大学 = tjpu
+*/
+.fc-icon-上海中医药大学before {
+	content: "\e09c";
+}
+
+.fc-icon-北京外国语大学:before {
+	content: "\e09d";
+}
+
+.fc-icon-四川师范大学:before {
+	content: "\e09e";
+}
+
+.fc-icon-河北工业大学:before {
+	content: "\e09f";
+}
+
+.fc-icon-天津工业大学:before {
+	content: "\e0a0";
+}
+
+/** 00:02 **/
+
+/*
+上海外国语大学 = shisu
+海南大学 = hainanu
+西南石油大学 = swpu
+三峡大学 = ctgu
+湖南农业大学 = hunau
+*/
+.fc-icon-上海外国语大学:before {
+	content: "\e0a1";
+}
+
+.fc-icon-海南大学:before {
+	content: "\e0a2";
+}
+
+.fc-icon-西南石油大学:before {
+	content: "\e0a3";
+}
+
+.fc-icon-三峡大学:before {
+	content: "\e0a4";
+}
+
+.fc-icon-湖南农业大学:before {
+	content: "\e0a5";
+}
+
+/*
+辽宁师范大学 = lnnu
+曲阜师范大学 = qfnu
+广州大学 = gzhu
+陕西科技大学 = sust
+中南民族大学 = scuec
+*/
+.fc-icon-辽宁师范大学:before {
+	content: "\e0a6";
+}
+
+.fc-icon-曲阜师范大学:before {
+	content: "\e0a7";
+}
+
+.fc-icon-广州大学:before {
+	content: "\e0a8";
+}
+
+.fc-icon-陕西科技大学:before {
+	content: "\e0a9";
+}
+
+.fc-icon-中南民族大学:before {
+	content: "\e0aa";
+}
+
+/*
+山东理工大学 = sdut
+福建医科大学 = fjmu
+广州中医药大学 = gzucm
+哈尔滨理工大学 = hrbust
+辽宁工程技术大学 = lntu
+*/
+.fc-icon-山东理工大学:before {
+	content: "\e0ab";
+}
+
+.fc-icon-福建医科大学:before {
+	content: "\e0ac";
+}
+
+.fc-icon-广州中医药大学:before {
+	content: "\e0ad";
+}
+
+.fc-icon-哈尔滨理工大学:before {
+	content: "\e0ae";
+}
+
+.fc-icon-辽宁工程技术大学:before {
+	content: "\e0af";
+}
+
+/*
+重庆邮电大学 = cqupt
+大连医科大学 = dmu
+河南农业大学 = henau
+广州医科大学 = gzhmu
+沈阳药科大学 = syphu
+*/
+.fc-icon-重庆邮电大学:before {
+	content: "\e0b0";
+}
+
+.fc-icon-大连医科大学:before {
+	content: "\e0b1";
+}
+
+.fc-icon-河南农业大学:before {
+	content: "\e0b2";
+}
+
+.fc-icon-广州医科大学:before {
+	content: "\e0b3";
+}
+
+.fc-icon-沈阳药科大学:before {
+	content: "\e0b4";
+}
+
+/*
+湖南科技大学 = hnust
+西南科技大学 = swust
+山东财经大学 = sdufe
+长沙理工大学 = csust
+兰州理工大学 = lut
+*/
+.fc-icon-湖南科技大学:before {
+	content: "\e0b5";
+}
+
+.fc-icon-西南科技大学:before {
+	content: "\e0b6";
+}
+
+.fc-icon-山东财经大学:before {
+	content: "\e0b7";
+}
+
+.fc-icon-长沙理工大学:before {
+	content: "\e0b8";
+}
+
+.fc-icon-兰州理工大学:before {
+	content: "\e0b9";
+}
+
+/*
+成都理工大学 = cdut
+中国计量大学 = cjlu
+河北医科大学 = hebmu
+河北师范大学 = hebtu
+长江大学 = yangtzeu
+*/
+.fc-icon-成都理工大学:before {
+	content: "\e0ba";
+}
+
+.fc-icon-中国计量大学:before {
+	content: "\e0bb";
+}
+
+.fc-icon-河北医科大学:before {
+	content: "\e0bc";
+}
+
+.fc-icon-河北师范大学:before {
+	content: "\e0bd";
+}
+
+.fc-icon-长江大学:before {
+	content: "\e0be";
+}
+
+/** 20200511 **/
+
+/*
+天津理工大学 = tjut
+青岛农业大学 = qau
+广西师范大学 = gxnu
+江苏科技大学 = just
+首都经济贸易大学 = cueb
+*/
+.fc-icon-天津理工大学:before {
+	content: "\e0bf";
+}
+
+.fc-icon-青岛农业大学:before {
+	content: "\e0c0";
+}
+
+.fc-icon-广西师范大学:before {
+	content: "\e0c1";
+}
+
+.fc-icon-江苏科技大学:before {
+	content: "\e0c2";
+}
+
+.fc-icon-首都经济贸易大学:before {
+	content: "\e0c3";
+}
+
+/*
+安徽工业大学 = ahut
+温州大学 = wzu
+河北农业大学 = hebau
+长春理工大学 = cust
+广西医科大学 = gxmu
+云南师范大学 = ynnu
+*/
+.fc-icon-安徽工业大学:before {
+	content: "\e0c4";
+}
+
+.fc-icon-温州大学:before {
+	content: "\e0c5";
+}
+
+.fc-icon-河北农业大学:before {
+	content: "\e0c6";
+}
+
+.fc-icon-长春理工大学:before {
+	content: "\e0c7";
+}
+
+.fc-icon-广西医科大学:before {
+	content: "\e0c8";
+}
+
+.fc-icon-云南师范大学:before {
+	content: "\e0c9";
+}
+
+/*** 上面200个了 ,分割线 ***/
+/*
+中国民航大学 = cauc
+中国科学院大学 = ucas
+重庆工商大学 = ctbu
+南华大学 = usc
+华北理工大学 = ncst
+*/
+.fc-icon-中国民航大学:before {
+	content: "\e0ca";
+}
+
+.fc-icon-中国科学院大学:before {
+	content: "\e0cb";
+}
+
+.fc-icon-重庆工商大学:before {
+	content: "\e0cc";
+}
+
+.fc-icon-南华大学:before {
+	content: "\e0cd";
+}
+
+.fc-icon-华北理工大学:before {
+	content: "\e0ce";
+}
+
+/*
+仲恺农业工程学院 = zhku
+浙江理工大学 = zstu
+北京工商大学 = btbu
+广东医科大学 = gdmu
+南京财经大学 = nufe
+*/
+.fc-icon-仲恺农业工程学院:before {
+	content: "\e0cf";
+}
+
+.fc-icon-浙江理工大学:before {
+	content: "\e0d0";
+}
+
+.fc-icon-北京工商大学:before {
+	content: "\e0d1";
+}
+
+.fc-icon-广东医科大学:before {
+	content: "\e0d2";
+}
+
+.fc-icon-南京财经大学:before {
+	content: "\e0d3";
+}
+
+/** 20200518 22:24 **/
+
+/*
+焦作大学 = jzu
+山东管理学院 = sdmu
+西安工业大学 = xatu
+安徽医科大学 = ahmu
+浙江万里学院 = zwu
+*/
+.fc-icon-焦作大学:before {
+	content: "\e0d4";
+}
+
+.fc-icon-山东管理学院:before {
+	content: "\e0d5";
+}
+
+.fc-icon-西安工业大学:before {
+	content: "\e0d6";
+}
+
+.fc-icon-安徽医科大学:before {
+	content: "\e0d7";
+}
+
+.fc-icon-浙江万里学院:before {
+	content: "\e0d8";
+}
+
+/*
+河南科技学院 = hist
+沈阳农业大学 = syau
+中国海洋大学 = ouc
+中国社会科学院大学 = ucass
+南开大学 = nankai
+*/
+.fc-icon-河南科技学院:before {
+	content: "\e0d9";
+}
+
+.fc-icon-沈阳农业大学:before {
+	content: "\e0da";
+}
+
+.fc-icon-中国海洋大学:before {
+	content: "\e0db";
+}
+
+.fc-icon-中国社会科学院大学:before {
+	content: "\e0dc";
+}
+
+.fc-icon-南开大学:before {
+	content: "\e0dd";
+}
+
+/*
+国防科技大学 = nudt
+中南大学 = csu
+华中科技大学 = hust
+华南理工大学 = scut
+桂林电子科技大学 = gliet
+*/
+.fc-icon-国防科技大学:before {
+	content: "\e0de";
+}
+
+.fc-icon-中南大学:before {
+	content: "\e0df";
+}
+
+.fc-icon-华中科技大学:before {
+	content: "\e0e0";
+}
+
+.fc-icon-华南理工大学:before {
+	content: "\e0e1";
+}
+
+.fc-icon-桂林电子科技大学:before {
+	content: "\e0e2";
+}
+
+/*
+西南交通大学 = swjtu
+中华女子学院 = cwu
+渤海大学 = bhu
+安徽农业大学 = ahau
+天津科技大学 = tust
+*/
+.fc-icon-西南交通大学:before {
+	content: "\e0e3";
+}
+
+.fc-icon-中华女子学院:before {
+	content: "\e0e4";
+}
+
+.fc-icon-渤海大学:before {
+	content: "\e0e5";
+}
+
+.fc-icon-安徽农业大学:before {
+	content: "\e0e6";
+}
+
+.fc-icon-天津科技大学:before {
+	content: "\e0e7";
+}
+
+/*
+河南城建学院 = hncj
+福建工程学院 = fjut
+德州学院 = dzu
+潍坊医学院 = wfmc
+湖南文理学院 = huas
+*/
+.fc-icon-河南城建学院:before {
+	content: "\e0e8";
+}
+
+.fc-icon-福建工程学院:before {
+	content: "\e0e9";
+}
+
+.fc-icon-德州学院:before {
+	content: "\e0ea";
+}
+
+.fc-icon-潍坊医学院:before {
+	content: "\e0eb";
+}
+
+.fc-icon-湖南文理学院:before {
+	content: "\e0ec";
+}
+
+/*
+洛阳理工学院 = lit
+安徽三联学院 = slu
+*/
+
+.fc-icon-洛阳理工学院:before {
+	content: "\e0ed";
+}
+
+.fc-icon-安徽三联学院:before {
+	content: "\e0ee";
+}
+

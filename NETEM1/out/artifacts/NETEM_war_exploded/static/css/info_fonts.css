@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/information/iconfont.ttf?t=1625580584058') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 27px;
+  font-weight: 500;
+  font-style: normal;
+  color: #8728AA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}

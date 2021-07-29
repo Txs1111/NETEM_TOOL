@@ -1,0 +1,860 @@
+.top_block{
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+.big-container{
+	width: 100%;
+	background-color: #f4f4f4;
+	padding-top: 20%;	
+}
+
+
+/* 搜索栏 */
+.container-head{
+	display: flex;
+	width: 100%;
+	margin-bottom: 5%;
+}
+.index-search{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	margin-left: 25px;
+	padding-right: 150px;
+	padding-left: 70px;
+	font-size: 13px;
+	color: #757575;
+	background-color: #fff;
+}
+.icon-head1{
+	position: absolute;
+	font-size: 20px!important;
+	left: 13%;
+	top: 10.5%;
+}
+
+/* 时间线 */
+.time {
+	width: 100%;
+	height: 170px;
+	margin-bottom: 2%;
+	background-size: 100% 100%;
+	border-bottom:1px solid #f9f9f9;
+}
+.time img{
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+}
+
+/* 局部导航栏 */
+.nav_part{
+	height: 60px;
+	background-color: #fff;
+}
+nav a{
+	float: left;
+	width: 16.66%;
+	text-align: center;
+	background-color: #fff;
+}
+nav a img:nth-child(1),
+nav a img:nth-child(2){
+	width: 27px;
+	height: 27px;
+	padding-top: 15%;
+}
+nav a img{
+	width: 30px;
+	height: 30px;
+	padding-top: 15%;
+}
+nav a span{
+	color: #969696!important;
+	display: block;
+	font-size: 12px;
+}
+
+
+/* 列表容器 */
+.small-container{
+	width: 100%;
+	height: 750px;
+	margin-top: 3%;
+	background-color: #fff;
+	border-radius: 10px;
+	padding-top: 1%;
+}
+
+/* 院校排名 */
+.small-container ul{
+	/* 类似院校排名下的ul 外部上边距 */
+	margin-top: 2%;
+}
+.lilili{
+	float: left;
+}
+.lilili img{
+	width: 20px;
+	height: 20px;
+}
+.small-left{
+	display: block;
+	float: left;
+	margin-left: 4%;
+	height: 20px;
+	border-left: 3px solid #ff9e13;
+	padding-left: 2%;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-right: 65%;
+}
+/* 将考研资料的a链接固定颜色 */
+.ululul a,
+.real_ul a,
+.ululul-mark a,
+.mark_content_li a,
+.twenty .wenzi,
+.outline_content_li a,
+.admission_content_li a{
+	color: #555555!important
+}
+.lili{
+	position: relative;
+	margin-bottom: 8%;
+}
+/* 规定第一个ul的li的大小。规定特殊li的大小 */
+.rank_ul_li,.mark_ul_li,
+.admission_ul_li{
+	height: 150px;
+}
+.ululul{
+	position: absolute;
+	left: 6%;
+	right: 6%;
+	top: 37px; 
+}
+.ululul li a{
+	display: block;
+	margin: 2% 1% 5% 1%;
+	height: 25px;
+	overflow:hidden;
+	white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 考研院校排名详情 */
+.ran_container{
+	width: 92%;
+	margin-left: 2%;
+	background-color: #fff;
+	padding: 18% 2% 0 2%;
+}
+.ran_title{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.ran_head{
+	width: 100%;
+	margin: 3% 0;
+	height: 55px;
+}
+.ran_head_img{
+	width: 50px;
+	height: 50px;
+}
+.ran_head_img img{
+	width: 100%;
+	height: 100%;
+}
+.ran_head_img,
+.ran_organ{
+	float: left;
+	margin-right: 2%;
+}
+.ran_organ{
+	padding-top: 2%;
+	font-size: 13px;
+}
+.ran_content{
+	width: 94%;
+	margin-left: 2%;
+	font-size: 16px;
+}
+.ran_firstLevel{
+	margin-top: 10%;
+	font-size: 14px;
+}
+.ran_content ol li{	
+	font-size: 14px;
+}
+.ran_school{
+	height: 35px;
+	line-height: 35px;
+	margin-top: 8%;
+}
+.ran_blank{
+	width: 7px;
+	height: 35px;
+	float: left;
+	margin-right: 2%;
+	background-color: #0100E9;
+	border-radius: 5px;
+}
+.ran_ranksch{
+	display: block;
+	float: left;
+	font-weight: 600;
+}
+.ran_sch_detail_a{
+	text-indent: 2em;
+	font-size: 14px;
+}
+.ran_sch_detail_b{
+	margin-bottom: 5%;
+	font-size: 14px;
+}
+.ran_more{
+	margin-bottom: 10%;
+	font-size: 14px;
+}
+
+/* 历年分数 */
+.ululul-mark{
+	position: absolute;
+	left: 2%;
+	right: 2%;
+	top: 35%;
+	bottom: 2%;	
+}
+.ululul-mark li a{
+	display: block;
+	margin: 2% 1% 0 1%;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	overflow:hidden;
+	white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 历年分数线详情 */
+.ma_container{
+	width: 92%;
+	margin-left: 2%;
+	background-color: #fff;
+	padding: 16% 2% 0 2%;
+}
+.ma_title{
+	width: 100%;
+	height: 90px;
+}
+.ma_title .ma_strong{
+	font-size: 21px;
+	font-weight: bolder;
+	display: block;
+	float: left;
+}
+.ma_content{
+	width: 94%;
+	margin-left: 2%;
+	height: 600px;
+}
+.ma_tips_a,
+.ma_tips_img{
+	margin: 5% 0;
+}
+.ma_tips_img{
+	width: 320px;
+	height: 370px;
+}
+.ma_tips_img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* 历年真题 */
+/* 规定特殊li的大小 */
+.real_ul_li{
+	height: 120px;
+}
+.real_ul li a{
+	display: block;
+	margin-right: 1%;
+	margin-left: 1%;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+/* 历年真题详情 */
+.re_container{
+	width: 100%;
+	height: 670px;
+	background-color: #f4f4f4;
+	padding-top: 10%;
+}
+.re_head{
+	width: 94%;
+	height: 80px;
+	padding-top: 1%;
+	margin-left: 3%;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.re_BQ{
+	padding-top: 5%;
+	padding-left: 3%;
+	font-size: 16px;
+	font-weight: bolder;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+.re_year{
+	width: 25%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	float: left;
+	color: #afafaf;
+	margin: 3% 5% 0 3%;
+}
+.re_typeQ{
+	width: 100%;
+	margin-top: 10%;
+}
+.re_typeSum{
+	display:block;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 0 7% 3% 7%;
+}
+.re_typeSum span{
+	display: block;
+}
+.re_type{
+	float: left;
+	margin-left: 5%;
+}
+.re_footer{
+	width: 176px;
+	margin-top: 10%;
+	float: right;
+	margin-right: 9%;
+}
+.re_loadAll{
+	text-align: center;
+	width: 45%;
+	height: 45px;
+	line-height: 45px;
+	float: right;
+	color: #fff;
+	background-color: #ffba00;
+}
+/* 按钮部分 */
+.re_lo{
+	margin-top: 6%;
+	margin-left: 82%; 
+}
+
+
+
+/* 考试大纲 */
+.outline_ul_li{
+	height: 350px;
+}
+.outline_ul_li .outline_p1{
+	display: block;
+	text-align: center;
+	padding-top: 15%;
+}
+.outline_ul_li .outline_p2{
+	display: block;
+	text-align: center;
+	padding-top: 5%;
+}
+.outline_b{
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	text-align: left;
+	color: #999999;
+	text-align: left;
+	display:-webkit-box;
+	-webkit-line-clamp: 4;/*行数*/
+	overflow:hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+}
+.resource{
+	display: block;
+	float: right;
+	margin-right: 10%;
+	color: #999999;
+	font-size: 9px;
+}
+
+/* 考试大纲详情 */
+.ou_container{
+	width: 100%;
+	height: 670px;
+	background-color: #f4f4f4;
+	padding-top: 20%;
+}
+.ou_container_li{
+	width: 94%;
+	height: 100px;
+	margin-left: 3%;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 2%;
+}
+.ou_title{
+	padding-top: 5%;
+	padding-left: 3%;
+	font-size: 16px;
+	font-weight: bold;
+}
+.ou_diff{
+	margin-top: 5%;
+}
+.ou_diff li:first-child{
+	color: #b3b3b3;
+	padding-left: 3%;
+	width: 40px;
+	height: 25px;
+	margin-right: 1%;
+	text-align: center;
+	margin-top: 3%;
+}
+.ou_diff li{
+	display: block;
+	width: 40px;
+	font-size: 12px;
+	height: 20px;
+	float: left;
+	color: #b3b3b3;
+	margin-top: 3%;
+}
+.ou_load{
+	color: #fff;
+	width: 20%;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	margin-right: 5%;
+	text-align: center;
+	background-color: #ffba00;
+	border-radius: 5px;
+}
+
+/* 学校报录情况 */
+.admission_ul_li{
+	margin-top: 2.5%;
+}
+
+/* 优秀老师情况 */
+.teacher_ul_li{
+	height: 360px;
+	margin-top: 3%;
+}
+.teacher_pic{
+	float: left;
+	width: 100%;
+	height: 260px;
+	display: flex;
+	flex-direction: column;
+}
+.teacher_pic_one,
+.teacher_pic_two{
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+}
+.teacher_pic_img{
+	flex: 1;
+	background: url(../img/info_img/teacher1.jpeg) no-repeat;
+	background-size: 100% 100%;	
+	border-radius: 100%;
+}
+.teacher_pic_intro{
+	flex: 1.5;
+}
+.teacher_pic_content a{
+	color: #444444!important;
+}
+
+/* 公共头部页面 */
+.all_head{
+	position: relative;
+	width: 75%;
+	margin-top: 4%;
+	margin-left: 12%;
+	text-align: center;
+}
+.year_real{
+	font-size: 16px;
+}
+
+/* 专业院校排名页面 */
+.major{
+	height: 35px;
+	line-height: 35px;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 35%;
+	text-align: center;
+}
+.rank_content{
+	display: flex;
+	width: 100%;
+	height: 580px;
+	margin-top: 50px;
+}
+.uni{
+	flex: 2.5;
+}
+.uni a{
+	color:#555555!important;
+}
+.rank_content {
+	margin-top: 2%;
+}
+.uni .uni_detail_li{
+	height: 60px;
+	line-height: 60px;
+	padding-left: 12%;
+	background-color: #f8f9fb;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+.uni_name{
+	position: relative;
+}
+.uni_right{
+	position: absolute;
+	right: 8%;
+	top: 5%;
+	font-size: 20px;
+}
+
+/* 历年分数页面 */
+.mark_content{
+	width: 90%;
+	height: 650px;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.mark_content .mark_content_li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #f8f9fb;
+	border-bottom: 1px solid #e3e3e3;
+	border-radius: 5px;
+}
+
+/* 历年真题页面 */
+.real_content{
+	width: 86%;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 520px;
+	background-color: white;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border-radius: 8px;
+}
+.blue_ifont{
+	color: #1D92FF!important;
+	font-size: 18px!important;
+}
+.yellow_ifont{
+	color: #FF9E13!important;
+	font-size: 18px!important;
+}
+.twenty{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 60px;
+	border-radius: 8px;
+	margin-top: 5% ;
+}
+.grey_smallline{
+	width: 74%;
+	float: right;
+	height: 5px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	margin-right: 9%;
+	border-bottom: 1px solid #dedede;
+}
+
+.twenty a{
+	display: flex;
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 10%;
+	align-items: center;
+}
+.twenty .icon-shijuan{
+	display: block;
+	width: 10%;
+	float: left;
+	padding-top: 5%;
+	margin-left: 4%;
+}
+.twenty .wenzi{
+	display: block;
+	width: 74%;
+	float: left;
+	margin-top: 5%;
+	display: flex;
+	align-items: center;
+	margin-left: 2%;
+	
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;/*行数*/
+	/*控制行数 超出三行后出现省略号*/
+	-o-text-overflow:ellipsis;
+	-webkit-text-overflow:ellipsis;
+	-moz-text-overflow:ellipsis;
+	overflow: hidden;
+}
+.twenty .youjiantou{
+	position: absolute;
+	right: 9%;
+	top: 27%;
+	display: block;
+	float: left;
+	font-size: 20px;
+}
+
+
+/* 考试大纲页面 */
+.outline_content_div{
+	width: 100%;
+	margin-top: 5%;
+}
+.outline_tips{
+	height: 35px;
+	line-height: 35px;
+	width: 30%;
+	margin-left: 35%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+.outline_content_div .outline_content_li{
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	padding-left: 4%;
+	text-align: left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	background-color: #f8f9fb;
+	border-radius: 5px;
+}
+.outline_content_li:nth-child(even){
+	font-size: 12px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.outline_content_li span{
+	display: block;
+	float: left;
+	color: #666;
+	font-size: 12px;
+}
+.outline_content_li span:nth-child(2){
+	margin-left: 55%;
+}
+.outline_div{
+	height: 100px;
+}
+.outline_div .outline_a{
+	color: #333!important;
+	font-size: 14px;
+}
+.outline_div .outline_b{
+	color: #666!important;
+	font-size: 14px;
+}
+
+/* 大纲详情在历年真题详情里 */
+
+
+/* 学校报录情况页面 */
+.admission_content{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.admission_content .admission_content_li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	display: block;
+	padding-left: 4%;
+	text-align: center;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	background-color: #f8f9fb;
+	border-bottom: 1px solid #e3e3e3;
+	border-radius: 5px;
+}
+
+/* 报录情况详情 */
+.ad_container{
+	width: 94%;
+	margin-left: 3%;
+	height: 880px;
+	background-color: #FFFFFF;
+	padding-top: 18%;;
+}
+.ad_head{
+	width: 98%;
+	margin-left: 1%;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.ad_content{
+	width: 92%;
+	margin-left: 4%;
+}
+.ad_content_a:first-child{
+	margin-top: 5%;
+}
+.ad_content_a{
+	margin-bottom: 5%;
+}
+.ad_content_img{
+	width: 310px;
+	height: 70px;
+}
+.ad_content_img img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 优秀老师 */
+.gallery-wrapper{
+	margin-top: 20%;
+	width: 96%;
+	margin-left: 2%;
+	height: 850px;
+}
+.gallery-wrapper a{
+	color: #333333!important;
+}
+.tier{
+	height: 800px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+	margin-bottom: 8%;
+}
+.gallery-wrapper a{
+	margin-bottom: 20%;
+}
+.white_panel{
+	width: 150px;
+	height: 150px;
+	float: right;
+}
+.thumb{
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	border-radius: 150%;
+}
+.teach_intro{
+	padding: 10% 5% 5% 10%;
+	font-size: 12px;
+}
+.te_name{
+	font-size: 20px;
+	font-weight: bold;
+}
+.te_one{
+	margin-top: 5%;
+	font-size: 14px;
+}
+.tier:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -5px;
+	transition: all ease-in-out .3s;
+ }
+/* 优秀老师课程详情 */
+.te_container{
+	width: 100%;
+	height: 700px;
+	background-color: #f4f4f4;
+	padding-top: 5%;
+}
+.te_course{
+	display: block;
+	width: 88%;
+	margin-left: 4%;
+	padding-left: 4%;
+	height: 120px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-bottom: 4%;
+}
+.te_course_induce{
+	width: 70%;
+}
+.te_course_title{
+	color: #000000!important;
+	font-weight: bolder;
+	font-size: 16px;
+	padding-top: 3%;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+.te_course_less{
+	float: left;
+	color: #333333;
+	font-size: 14px;
+	margin-top: 5%;
+	overflow:hidden;
+	white-space:wrap;
+	text-overflow: ellipsis;
+}
+.te_course_img{
+	width: 60px;
+	height: 60px;
+	float: right;
+	margin-right: 5%;
+}
+.te_course_img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
